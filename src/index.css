@@ -1,0 +1,30 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    background-color: #15B015;
+    padding: 8px;
+    border-radius: 10%;
+    color: white;
+}
+/* Instagram CSS Linear Gradient Background */
+.gradient {
+    background: #833ab4;
+    background: linear-gradient(
+      to right,
+      #833ab4,#fd1d1d,#fcb045
+    );
+  }
+  .btn{
+    transform: translateY(1000px);
+    transition: transform 0.5s , opacity 1s;
+    opacity: 0;
+  }
+  .product:hover .btn{
+    transform: translateY(0);
+    opacity: 1;
+    
+  }
+ 
